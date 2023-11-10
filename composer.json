@@ -1,0 +1,24 @@
+{
+  "name": "lstrojny/override-experiment",
+  "require-dev": {
+    "rector/rector": "dev-main",
+    "phpstan/phpstan": "^1.10"
+  },
+  "authors": [
+    {
+      "name": "Lars Strojny",
+      "email": "lars@strojny.net"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "nfq\\ore\\": "src/"
+    },
+    "files": [
+      "polyfill.php"
+    ]
+  }
+}
